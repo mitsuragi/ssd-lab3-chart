@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\12\\source\\repos\\lab3-chart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\viewmodel\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|solutionrelative:lab3-chart\\viewmodel\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|c:\\users\\12\\source\\repos\\lab3-chart\\lab3-chart\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|solutionrelative:lab3-chart\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\converters\\pointstopathconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|solutionrelative:lab3-chart\\converters\\pointstopathconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\converters\\dividebytwoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|solutionrelative:lab3-chart\\converters\\dividebytwoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\viewmodel\\errorsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|solutionrelative:lab3-chart\\viewmodel\\errorsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|solutionrelative:lab3-chart\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEDE039-1F40-4C52-A63F-BE10CA9C7DF8}|lab3-chart\\lab3-chart.csproj|solutionrelative:lab3-chart\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PointsToPathConverter.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\converters\\PointsToPathConverter.cs",
+              "RelativeDocumentMoniker": "lab3-chart\\converters\\PointsToPathConverter.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\converters\\PointsToPathConverter.cs",
+              "RelativeToolTip": "lab3-chart\\converters\\PointsToPathConverter.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwBkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T12:44:37.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\viewmodel\\ErrorsViewModel.cs",
+              "RelativeDocumentMoniker": "lab3-chart\\viewmodel\\ErrorsViewModel.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\viewmodel\\ErrorsViewModel.cs",
+              "RelativeToolTip": "lab3-chart\\viewmodel\\ErrorsViewModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:09:04.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DivideByTwoConverter.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\converters\\DivideByTwoConverter.cs",
+              "RelativeDocumentMoniker": "lab3-chart\\converters\\DivideByTwoConverter.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\converters\\DivideByTwoConverter.cs",
+              "RelativeToolTip": "lab3-chart\\converters\\DivideByTwoConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T11:52:34.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\model\\Model.cs",
+              "RelativeDocumentMoniker": "lab3-chart\\model\\Model.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\model\\Model.cs",
+              "RelativeToolTip": "lab3-chart\\model\\Model.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T17:28:02.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\viewmodel\\ViewModel.cs",
+              "RelativeDocumentMoniker": "lab3-chart\\viewmodel\\ViewModel.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\viewmodel\\ViewModel.cs",
+              "RelativeToolTip": "lab3-chart\\viewmodel\\ViewModel.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAuwKkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:14:01.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "lab3-chart\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\MainWindow.xaml",
+              "RelativeToolTip": "lab3-chart\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-16T10:00:41.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\viewmodel\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "lab3-chart\\viewmodel\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\viewmodel\\RelayCommand.cs",
+              "RelativeToolTip": "lab3-chart\\viewmodel\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:15:06.647Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
