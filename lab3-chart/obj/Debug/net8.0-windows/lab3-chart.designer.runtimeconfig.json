@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\12\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\12\\.nuget\\packages"
+      "C:\\Users\\tapok\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tapok\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\lab3-chart.csproj": {}
+    "D:\\learning\\rps\\3\\lab3-chart\\lab3-chart\\lab3-chart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\lab3-chart.csproj": {
+    "D:\\learning\\rps\\3\\lab3-chart\\lab3-chart\\lab3-chart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\lab3-chart.csproj",
+        "projectUniqueName": "D:\\learning\\rps\\3\\lab3-chart\\lab3-chart\\lab3-chart.csproj",
         "projectName": "lab3-chart",
-        "projectPath": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\lab3-chart.csproj",
-        "packagesPath": "C:\\Users\\12\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\12\\source\\repos\\lab3-chart\\lab3-chart\\obj\\",
+        "projectPath": "D:\\learning\\rps\\3\\lab3-chart\\lab3-chart\\lab3-chart.csproj",
+        "packagesPath": "C:\\Users\\tapok\\.nuget\\packages\\",
+        "outputPath": "D:\\learning\\rps\\3\\lab3-chart\\lab3-chart\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tapok\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "LiveChartsCore.SkiaSharpView.WPF": {
+              "target": "Package",
+              "version": "[2.0.0-rc4.5, )"
+            },
+            "WpfMath": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

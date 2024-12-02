@@ -4,14 +4,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
         xmlns:local="clr-namespace:lab3_chart"
-        xmlns:converters="clr-namespace:lab3_chart.converters"
+        xmlns:controls="clr-namespace:WpfMath.Controls;assembly=WpfMath"
         xmlns:viewmodel="clr-namespace:lab3_chart.viewmodel"
         mc:Ignorable="d"
         Title="Лемниската Бернулли" Height="500" Width="900">
     <Window.Resources>
-        <converters:DivideByTwoConverter x:Key="DivideByTwoConverter"/>
-        <converters:PointsToPathConverter x:Key="PointsToPathConverter"/>
         <Style TargetType="TextBox">
             <Setter Property="FontSize" Value="18"/>
         </Style>
@@ -22,7 +21,7 @@
     <Window.DataContext>
         <viewmodel:ViewModel/>
     </Window.DataContext>
-    <Grid ShowGridLines="True">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition/>
@@ -38,11 +37,14 @@
                     <MenuItem Header="Исходные данные" Command="{Binding FileSaveInitialCommand}"/>
                     <MenuItem Header="Результат" Command="{Binding FileSaveResultCommand}"/>
                 </MenuItem>
-                <MenuItem Header="Экспорт" Command="{Binding ExportToExcelCommand}"/>
             </MenuItem>
             <MenuItem Header="Информация">
                 <MenuItem Header="Справка" Command="{Binding ShowAboutCommand}"/>
-            </MenuItem>
+                <MenuItem Header="Отображать справку при входе?"
+                          IsCheckable="True"
+                          IsChecked="{Binding ShowStartupMessage, Mode=TwoWay}"
+                          Command="{Binding SwitchShowStartupCommand}"/>
+            </MenuItem> 
         </Menu>
 
         <DockPanel Grid.ColumnSpan="2" Margin="0 30 0 5" Grid.Row="0">
@@ -61,46 +63,15 @@
             <Button Content="Построить"
                     Command="{Binding StartCommand}"
                     Margin="5 0"/>
-            <Label Content="y = ±sqrt(sqrt(c^4 + 4 * x^2 * c^2) - x^2 - c^2)"
-                   DockPanel.Dock="Right"
-                   HorizontalAlignment="Right"/>
+            <controls:FormulaControl Formula="y = \sqrt{\sqrt{c^4+4x^2c^2}-x^2-c^2}"
+                                     DockPanel.Dock="Right"
+                                     HorizontalAlignment="Right"/>
         </DockPanel>
 
-        <Canvas Grid.Row="1"
-                x:Name="canvas"
-                Margin="0 5 0 0"
-                MinHeight="0"
-                Grid.Column="0">
-
-            <Line X1="{Binding ElementName=canvas, Path=ActualWidth, Converter={StaticResource DivideByTwoConverter}}"
-                  Y1="0"
-                  X2="{Binding RelativeSource={RelativeSource Self}, Path=X1}"
-                  Y2="{Binding ElementName=canvas, Path=ActualHeight}"
-                  Stroke="Green"/>
-
-            <Line X1="0"
-                  Y1="{Binding ElementName=canvas, Path=ActualHeight, Converter={StaticResource DivideByTwoConverter}}"
-                  X2="{Binding ElementName=canvas, Path=ActualWidth}"
-                  Y2="{Binding RelativeSource={RelativeSource Self}, Path=Y1}"
-                  Stroke="Green" />
-
-            <Path Stroke="Red"
-                  StrokeThickness="3">
-                <Path.Data>
-                    <MultiBinding Converter="{StaticResource PointsToPathConverter}">
-                        <Binding Path="Points"/>
-                        <Binding ElementName="canvas" Path="ActualWidth" />
-                        <Binding ElementName="canvas" Path="ActualHeight" />
-                    </MultiBinding>
-                </Path.Data>
-                <Path.RenderTransform>
-                    <TransformGroup>
-                        <TranslateTransform X="{Binding ElementName=canvas, Path=ActualWidth, Converter={StaticResource DivideByTwoConverter}}"
-                                            Y="{Binding ElementName=canvas, Path=ActualHeight, Converter={StaticResource DivideByTwoConverter}}" />
-                    </TransformGroup>
-                </Path.RenderTransform>
-            </Path>
-        </Canvas>
+        <lc:CartesianChart Grid.Row="1" Series="{Binding SeriesCollection}" Margin="10" LegendPosition="Right"
+                   XAxes="{Binding XAxes}" YAxes="{Binding YAxes}"
+                   ZoomMode="Both" TooltipPosition="Hidden">
+        </lc:CartesianChart>
 
         <DockPanel Grid.Row="1" Grid.Column="1">
             <Label Content="Таблица значений функции:" FontSize="10" DockPanel.Dock="Top"/>
@@ -111,10 +82,10 @@
                     <GridView>
                         <GridViewColumn x:Name="XColumn"
                                         DisplayMemberBinding="{Binding Path=X, StringFormat={}{0:F3}}"
-                                        Header="X"/>
+                                        Header="X" Width="70"/>
                         <GridViewColumn x:Name="YColumn"
                                         DisplayMemberBinding="{Binding Path=Y, StringFormat={}{0:F3}}"
-                                        Header="Y"/>
+                                        Header="Y" Width="70"/>
                     </GridView>
                 </ListView.View>
             </ListView>
